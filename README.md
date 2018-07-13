@@ -2,11 +2,11 @@
 
 Tópicos abordados neste trabalho (em andamento):
 
-- [ ] Melhoria de Imagens;
-- [ ] Geração de Ruı́dos;
-- [ ] Restauração de Imagens;
-- [ ] Composição de Imagem;
-- [ ] Segmentação de Imagens;
-- [ ] Transferência de Estilo;
-- [ ] Combinação Linear com Coeficientes Variáveis;
-- [ ] Realce.
+- [x] Melhoria de Imagens;
+- [x] Geração de Ruı́dos;
+- [x] Restauração de Imagens;
+- [x] Composição de Imagem;
+- [x] Segmentação de Imagens;
+- [x] Transferência de Estilo;
+- [x] Combinação Linear com Coeficientes Variáveis;
+- [x] Realce.
