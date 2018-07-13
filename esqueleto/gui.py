@@ -148,6 +148,10 @@ class Gui(Frame):
         self.menuTopologia.add_command(label='Transformada da Distancia', underline=0, command=self.emConstrucao)
         self.menuTopologia.add_command(label='Esqueletizacao', underline=0, command=self.emConstrucao)
         self.menubar.add_cascade(label="Topologia", underline=0, menu=self.menuTopologia)
+        
+        # Menu do trabalho e suas opcoes
+        self.trabalho = Menu(self.menubar)
+        self.trabalho.add_command(label='Tarefa 01', underline=20, command=self.abrir)
 
         # Grupo principal, onde serao atualizados os widgets
         self.grupoPrincipal = Frame(self.canvas, width=self.largura, height=self.altura, bd=1, padx=10, pady=10)
